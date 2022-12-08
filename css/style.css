@@ -12,7 +12,6 @@ main {
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  background-color: antiquewhite;
 }
 .menu {
   grid-column: 5/12;
