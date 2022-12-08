@@ -2,7 +2,7 @@ main {
   display: grid;
   gap: 3px;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 5vh auto auto 5vh;
+  grid-template-rows: 7vh auto auto 5vh;
 }
 .logo {
   grid-column: 2/5;
@@ -12,7 +12,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  /* background-color: aqua; */
+  background-color: antiquewhite;
 }
 .menu {
   grid-column: 5/12;
