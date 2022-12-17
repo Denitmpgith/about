@@ -14,7 +14,7 @@
     background-color: aqua;
   }
   menu .menu {
-    flex-direction: column;
+    flex-direction: row;
   }
   menu .ull {
     display: flex;
