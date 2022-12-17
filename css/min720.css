@@ -11,9 +11,6 @@
     grid-row: 1;
     justify-content: space-evenly;
   }
-  menu .menu {
-    flex-direction: row;
-  }
   menu .ull {
     display: flex;
     justify-content: flex-start;
