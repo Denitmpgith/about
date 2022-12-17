@@ -1,0 +1,30 @@
+@media screen and (min-width: 720px) {
+  .logo {
+    grid-column: 2/6;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  menu {
+    grid-column: 7/13;
+    grid-row: 1;
+    justify-content: space-evenly;
+  }
+  menu .menu {
+    flex-direction: column;
+  }
+  menu .ull {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+  }
+  menu .ulr {
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+  }
+  img {
+    height: 85px;
+  }
+}
