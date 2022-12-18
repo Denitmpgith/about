@@ -23,7 +23,28 @@
     display: none;
     justify-content: center;
   }
-  img {
-    height: 50px;
+  section#story {
+    grid-column: 2/12;
+    grid-row: 3;
+    background-color: hsl(0, 100%, 85%);
+  }
+  section#vision {
+    grid-column: 2/12;
+    grid-row: 4;
+    background-color: hsl(0, 66%, 85%);
+  }
+  section#mision {
+    grid-column: 2/12;
+    grid-row: 5;
+    background-color: hsl(0, 33%, 85%);
+  }
+  section#howIsWork {
+    grid-column: 2/12;
+    grid-row: 6;
+    background-color: hsl(0, 0%, 85%);
+  }
+  footer {
+    grid-column: 1/13;
+    grid-row: 7;
   }
 }

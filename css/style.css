@@ -33,18 +33,6 @@ ul li a {
 ul li a:hover {
   color: rgb(150, 150, 150);
 }
-section#banner {
-  grid-column: 2/11;
-  grid-row: 2;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-}
-section#banner .img {
-  background-color: black;
-}
 .next,
 .prev {
   cursor: pointer;
@@ -81,15 +69,13 @@ p {
   padding-bottom: 1rem;
 }
 footer {
-  grid-column: 1/13;
-  grid-row: 7;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 0px 0px 5px black;
+  background-color: aqua;
 }
 .mainl {
   grid-column: 1/3;
