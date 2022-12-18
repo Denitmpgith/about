@@ -1,4 +1,9 @@
+@font-face {
+  font-family: "oswald";
+  src: url(/font/Oswald-VariableFont_wght.ttf);
+}
 main {
+  font-family: "oswald", Arial, Helvetica, sans-serif;
   display: grid;
   gap: 3px;
   grid-template-columns: repeat(12, 1fr);
@@ -61,7 +66,6 @@ h1 {
   padding: 10px 0px 10px 0px;
   font-size: 2rem;
   text-align: center;
-  text-transform: uppercase;
   color: rgb(150, 150, 150);
 }
 p {
